@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="yellow">#F5DC49</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="list_background">#FFFFFF</color>
+    <color name="list_background_pressed">#0288D1</color>
+    <color name="list_divider">#272727</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="title">#000000</color>
+    <color name="color_wrong">#E64A19</color>
+    <color name="color_press">#01579B</color>
+    <color name="color_desciption">#757575</color>
+    <color name="color_desciption_press">#EEEEEE</color>
+    <color name="selected_item">#00ACC1</color>
+    <color name="press_color_button">#E0E0E0</color>
+    <color name="ColorPrimary">#FF5722</color>
+    <color name="ColorPrimaryDark">#E64A19</color>
+
+</resources>

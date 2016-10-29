@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BLockScreen</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+   <string name="change_text_color_title">Change text color</string>
+    <string name="change_text_color_sumary">Change text color in lockscreen</string>
+    <string name="use_lockscreen_title">Use smart lockscreen</string>
+    <string name="use_lockscreen_sumary">Enable to use smart lockscreen</string>
+    <string name="wallpaper_setting_title">Wallpaper</string>
+    <string name="wallpaper_setting_summary">change lockscreen picture</string>
+    <string name="statusbar_summary">change lockscreen picture</string>
+    <string name="statusbar_title">Status Bar</string>
+    <string name="display_timeout_title">Setup lockscreen</string>
+    <string name="display_timeout_summary">Set touch in wall paper to unlock</string>
+    <string name="sound_unlock_summary">sound when unlock screen</string>
+    <string name="sound_unlock_title">Sound on unlock</string>
+    <string name="basic_setting_other">Other</string>
+    <string name="set_default_title">Reset to default</string>
+    <string name="display_title">Display</string>
+    <string name="sound_title">Sound</string>
+    <string name="error_flashlight_title">Error FlashLight</string>
+    <string name="error_flashlight_message">Error FlashLight</string>
+    <string name="error_flashlight_OK"> OK </string>
+    <string name="reset_to_default">Reset to default !</string>
+    <string name="ques_reset_to_defaut"> Do you want to reset to default ? </string>
+    <string name="delete_item"> Delete item </string>
+    <string name="ques_delete"> Do you want to delete ? </string>
+    <string name="yes"> Yes </string>
+    <string name="no"> No </string>
+    <string name="Swipe_or_Draw_to_unlock ">Touch to unlock</string>
+    <string name="set_defalut_sumary">Reset wallpar and text color to default</string>
+
+</resources>

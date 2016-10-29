@@ -1,0 +1,35 @@
+                                                                 Database :
+
+==============================================================================================================================================
+
+Noted :   Nhóm mình sẽ dùng contentprovider và mô hình MVC để quản lý cơ sở dự liệu :
+        - Ưu điểm : dễ dàng cho việc quản lý database và mở rộng xóa bỏ bảng khi kịch bản thay đổi , dễ dàng nâng cấp hệ thống 
+        - Nhược điểm : khó cài đặt .
+		
+==============================================================================================================================================		
+1. Class xử lý tất cả các hàm thêm xóa sửa database :  SmartLockScreenNotificationProvider .
+2. Package chứa tất cả các bảng database            :  com.bk.table . 
+3. Chi tiết về từng bảng cơ sở dữ liệu :
+   a/  tblAplicationIngroup : định nghĩa một ứng dụng sẽ thuộc group nào .
++ id : id của bảng ( mã tự tăng )
++ Group_ID : id của groupnotification , từ ID ta có thể join với bảng tblGroupNotification để biết được tên group của 1 ứng dụng .
++ PACKAGE  : tên package của 1 ứng dụng .
+   b/  tblGroupNotification : bảng định nghĩa 1 một group notification .
++ id : id của bảng cơ sở dữ liệu  ( mã tự tăng )
++ group_id : id của group notification.   
++ group_name : tên của group notitification .
+   c/  tblNotification :
++ id : id của bảng cơ sở dữ liệu ,
++ group_id : id của group chứa notification ,
++ title_notification : title của notification ,
++ content_notification : nội dung của notification ,
++ packageName : package của ứng dụng có notification này .
++ time_notification : thời gian hiển thị notification ,
+================================================================================================================================================
+Quy tắc nghiệp vụ :
+- một notification chỉ thuộc 1 ứng dụng ,
+- một ứng dụng chỉ thuộc 1 group notification .
+- một notification chỉ thuộc 1 group notification ,
+- Người dùng có thể tùy chình thay đổi một ứng dụng giữa các group notification .
+
+===============================================================Database v1 ======================================================================

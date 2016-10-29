@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_use_lockscreen"
+        android:summary="@string/use_lockscreen_sumary"
+        android:textSize="@dimen/test_textsize"
+        android:title="@string/use_lockscreen_title" />
+
+    <com.bk.setting.ColorPickerPreference
+        android:defaultValue="0xffffffff"
+        android:key="color"
+        android:summary="@string/change_text_color_sumary"
+        android:title="@string/change_text_color_title" />
+
+    <PreferenceCategory
+        android:layout="@layout/customer_pref_category"
+        android:title="@string/display_title" >
+        <Preference
+            android:enabled="true"
+            android:key="pref_wallpaper"
+            android:selectable="true"
+            android:summary="@string/wallpaper_setting_summary"
+            android:textSize="@dimen/test_textsize"
+            android:title="@string/wallpaper_setting_title" />
+        <Preference
+            android:key="pref_time_out"
+            android:summary="@string/display_timeout_summary"
+            android:textSize="@dimen/test_textsize"
+            android:title="@string/display_timeout_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/customer_pref_category"
+        android:title="@string/sound_title" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref_sound_unlock"
+            android:summary="@string/sound_unlock_summary"
+            android:textSize="@dimen/test_textsize"
+            android:title="@string/sound_unlock_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:layout="@layout/customer_pref_category"
+        android:textSize="@dimen/test_textsize"
+        android:title="@string/basic_setting_other" >
+        <Preference
+            android:key="pref_reset2default"
+            android:summary="@string/set_defalut_sumary"
+            android:textSize="@dimen/test_textsize"
+            android:title="@string/set_default_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
